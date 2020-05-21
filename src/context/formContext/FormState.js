@@ -17,6 +17,8 @@ const FormState = (props) => {
         type: formConstants.SUBMIT_REQUEST,
       });
 
+      //önce inputtan gelen değeri '.' ya göre ayırıp döngüye sokuyoruz. Her döngüde json değeri bir aşağıdaki ifadeye kayıyor
+      //components.schemes gibi bir yapıda ilk önce json objesi,components oluyor ondan sonra schemes 
       value.split(".").forEach((token) => {
         console.log(json)
         if (json) json = json[token];

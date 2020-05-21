@@ -8,6 +8,8 @@ import { ThemeProvider } from "styled-components";
     border: "blue",
     background: "#FFFFFF",
     formButtonColor:"#7041EE",
+    formInputBorderColor:"dodgerBlue",
+    
     
     
     

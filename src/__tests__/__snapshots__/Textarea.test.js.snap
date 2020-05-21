@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button snapshot should match snapshot 1`] = `
+.c0 {
+  grid-area: "textarea";
+}
+
+<textarea
+  className="c0"
+/>
+`;
