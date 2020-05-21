@@ -34,7 +34,7 @@ export const FormComponent = () => {
         onChange={handleChange}
         aria-label="form-input"
       />
-      {loading ? <ClipLoader size={150} /> : <Button type="submit" color={"red"}/>}
+      {loading ? <ClipLoader size={150} /> : <Button type="submit"/>}
       <Textarea
         placeholder="Butona bastıktan sonra değer burada gözükecek"
         value={jsonData ? jsonData : ""}

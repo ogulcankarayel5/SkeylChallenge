@@ -7,7 +7,7 @@ import 'jest-styled-components'
 
 
 
-describe("Button snapshot",() => {
+describe("Input snapshot",() => {
     
     it("should match snapshot",() => {
         const tree = renderer.create(<Input theme={theme}/>).toJSON();
