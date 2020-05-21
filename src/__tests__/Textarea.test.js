@@ -7,7 +7,7 @@ import 'jest-styled-components'
 
 
 
-describe("Button snapshot",() => {
+describe("Textarea snapshot",() => {
    
     it("should match snapshot",() => {
         const tree = renderer.create(<Textarea/>).toJSON();
