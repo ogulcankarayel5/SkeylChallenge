@@ -30,11 +30,11 @@ export const FormComponent = () => {
       <FormInput
         value={values.formInput}
         name="formInput"
-        placeholder="lütfen düzgün formatta bir değer giriniz"
+        placeholder="lütfen düzgün formatta bir değer giriniz (components.tags gibi)"
         onChange={handleChange}
         aria-label="form-input"
       />
-      {loading ? <ClipLoader size={150} /> : <Button type="submit" />}
+      {loading ? <ClipLoader size={150} /> : <Button type="submit" color={"red"}/>}
       <Textarea
         placeholder="Butona bastıktan sonra değer burada gözükecek"
         value={jsonData ? jsonData : ""}

@@ -1,6 +1,6 @@
 import { formConstants } from "../../constants";
   
-  export default (state, action) => {
+  export default (state=[], action) => {
     switch (action.type) {
     
       case formConstants.SUBMIT_REQUEST:

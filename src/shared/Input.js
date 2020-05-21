@@ -23,3 +23,11 @@ grid-area:"input";
     box-shadow: 0 0 8px 0 ${(props) => props.theme.colors.formInputBorderColor};
   }
 `;
+
+Input.defaultProps={
+  theme:{
+    colors:{
+      formInputBorderColor:"dodgerBlue",
+    }
+  }
+}

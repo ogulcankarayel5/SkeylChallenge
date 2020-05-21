@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form snapshot should match snapshot 1`] = `
+.c0 {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  grid-template-rows: 1fr 10fr;
+  grid-template-areas: "input button " "textarea textarea";
+  padding: 5rem;
+}
+
+<form
+  className="c0"
+/>
+`;
