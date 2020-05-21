@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { Theme } from "./shared";
+import { MainRouter } from "./routes";
+import { GlobalStyle } from "./utils";
+import FormState from './context/formContext/FormState'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FormState>
+      <BrowserRouter>
+      <Theme>
+        <GlobalStyle />
+        <MainRouter />
+      </Theme>
+    </BrowserRouter>
+    </FormState>
   );
 }
 
